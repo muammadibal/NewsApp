@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {Gap} from '../..';
-import {gapSize, randomColor} from '../../../util';
+import {fonts, gapSize, randomColor} from '../../../util';
 
 const ListMenuProfile = ({title, subtitle, icon, onPress}) => {
   return (

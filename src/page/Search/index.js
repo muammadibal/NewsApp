@@ -16,7 +16,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {EmptyImage, EmptySearch} from '../../assets';
 import {Button, Gap, Input} from '../../component/';
 import {fetchSearchNews} from '../../redux/actions';
-import {gapSize, heightSize, primaryColor, widthSize} from '../../util';
+import {fonts, gapSize, heightSize, primaryColor, widthSize} from '../../util';
 
 const Search = ({navigation}) => {
   const dispatch = useDispatch();
